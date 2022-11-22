@@ -105,6 +105,9 @@ const Team = () => {
             borderTop: "none",
             backgroundColor: colors.blueAccent[800],
           },
+          "& .MuiDataGrid-columnHeaderTitleContainer": {
+            gap: ".5em",
+          },
         }}
       >
         <DataGrid rows={mockDataTeam} columns={columns} />

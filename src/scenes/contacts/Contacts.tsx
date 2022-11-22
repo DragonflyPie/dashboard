@@ -5,7 +5,7 @@ import { tokens } from "../../theme";
 import Header from "../../components/Header";
 import { mockDataContacts } from "../../data/mockData";
 
-const Team = () => {
+const Contacts = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -81,6 +81,9 @@ const Team = () => {
             borderTop: "none",
             backgroundColor: colors.blueAccent[800],
           },
+          "& .MuiDataGrid-columnHeaderTitleContainer": {
+            gap: ".5em",
+          },
           "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
             color: colors.grey[100],
           },
@@ -96,4 +99,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Contacts;
