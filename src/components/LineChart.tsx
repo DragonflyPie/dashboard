@@ -84,7 +84,7 @@ const LineChart = ({ isDashboard = false }) => {
       useMesh={true}
       legends={[
         {
-          anchor: "bottom-right",
+          anchor: "right",
           direction: "column",
           justify: false,
           translateX: 100,

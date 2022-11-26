@@ -45,9 +45,10 @@ const GeoChart = ({ isDashboard = false }) => {
       domain={[0, 1000000]}
       unknownColor="#666666"
       label="properties.name"
+      isInteractive={false}
       valueFormat=".2s"
-      projectionScale={isDashboard ? 40 : 120}
-      projectionTranslation={isDashboard ? [0.49, 0.6] : [0.5, 0.61]}
+      projectionScale={isDashboard ? 45 : 120}
+      projectionTranslation={isDashboard ? [0.49, 0.68] : [0.5, 0.61]}
       projectionRotation={[0, 0, 0]}
       borderWidth={1.5}
       borderColor="#ffffff"
@@ -72,7 +73,7 @@ const GeoChart = ({ isDashboard = false }) => {
                   {
                     on: "hover",
                     style: {
-                      itemTextColor: "#ffffff",
+                      itemTextColor: "#000000",
                       itemOpacity: 1,
                     },
                   },
