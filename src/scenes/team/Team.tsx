@@ -6,7 +6,6 @@ import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 import { tokens } from "../../theme";
 import Header from "../../components/Header";
 import { mockDataTeam } from "../../data/mockData";
-import { TeamMemberType, TeamType } from "../../data/mockDataTypes";
 
 const Team = () => {
   const theme = useTheme();
